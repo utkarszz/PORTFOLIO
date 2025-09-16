@@ -130,3 +130,32 @@ footer {
     font-size: 1.3rem;
   }
 }
+/* Video & Images responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Optional: extra spacing fix ke liye */
+  margin: 0 auto; /* Centering */
+}
+/* Container responsive */
+.container {
+  width: 100%;
+  max-width: 1200px; /* optional, site ka max width */
+  padding: 10px; /* mobile padding */
+  box-sizing: border-box;
+  margin: 0 auto; /* center the content */
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  video {
+    width: 100%;
+  }
+}
+
